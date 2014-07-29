@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B621CF01987008900493B36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B621CEF1987008900493B36 /* Foundation.framework */; };
+		1B621CF21987008900493B36 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B621CF11987008900493B36 /* CoreGraphics.framework */; };
+		1B621CF41987008900493B36 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B621CF31987008900493B36 /* UIKit.framework */; };
+		1B621CFA1987008900493B36 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1B621CF81987008900493B36 /* InfoPlist.strings */; };
+		1B621CFC1987008900493B36 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B621CFB1987008900493B36 /* main.m */; };
+		1B621D001987008900493B36 /* HTMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B621CFF1987008900493B36 /* HTMAppDelegate.m */; };
+		1B621D021987008900493B36 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B621D011987008900493B36 /* Images.xcassets */; };
+		1B621D091987008A00493B36 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B621D081987008A00493B36 /* XCTest.framework */; };
+		1B621D0A1987008A00493B36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B621CEF1987008900493B36 /* Foundation.framework */; };
+		1B621D0B1987008A00493B36 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B621CF31987008900493B36 /* UIKit.framework */; };
+		1B621D131987008A00493B36 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1B621D111987008A00493B36 /* InfoPlist.strings */; };
+		1B621D151987008A00493B36 /* GeofenceTestingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B621D141987008A00493B36 /* GeofenceTestingTests.m */; };
+		1B621D241987014F00493B36 /* HTMMainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B621D231987014F00493B36 /* HTMMainTabBarController.m */; };
+		1B621D271987017400493B36 /* HTMGeofenceLoggerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B621D261987017400493B36 /* HTMGeofenceLoggerViewController.m */; };
+		1B621D291987018A00493B36 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B621D281987018A00493B36 /* MapKit.framework */; };
+		1B621D331987032F00493B36 /* HTMListTabBarIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B621D2F1987032F00493B36 /* HTMListTabBarIcon.png */; };
+		1B621D341987032F00493B36 /* HTMListTabBarIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B621D301987032F00493B36 /* HTMListTabBarIcon@2x.png */; };
+		1B621D351987032F00493B36 /* HTMMapTabBarIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B621D311987032F00493B36 /* HTMMapTabBarIcon.png */; };
+		1B621D361987032F00493B36 /* HTMMapTabBarIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B621D321987032F00493B36 /* HTMMapTabBarIcon@2x.png */; };
+		1B621D3A198703FF00493B36 /* HTMMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B621D38198703FF00493B36 /* HTMMapViewController.m */; };
+		1B621D3B198703FF00493B36 /* HTMMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B621D39198703FF00493B36 /* HTMMapViewController.xib */; };
+		1B621D3E1987045900493B36 /* MINDBODY-SLO.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 1B621D3D1987045900493B36 /* MINDBODY-SLO.gpx */; };
+		1B621D411987055C00493B36 /* MBCenterMapArrowGrey.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B621D3F1987055C00493B36 /* MBCenterMapArrowGrey.png */; };
+		1B621D421987055C00493B36 /* MBCenterMapArrowOrange.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B621D401987055C00493B36 /* MBCenterMapArrowOrange.png */; };
+		1B621D471987056200493B36 /* MBLocationArrowButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B621D461987056200493B36 /* MBLocationArrowButton.m */; };
+		1B621D4B1987064500493B36 /* UIView+HelperTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B621D4A1987064500493B36 /* UIView+HelperTools.m */; };
+		1B621D4E1987095800493B36 /* MKMapView+MBDebugDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B621D4D1987095800493B36 /* MKMapView+MBDebugDrawing.m */; };
+		1B621D511987099700493B36 /* UIColor+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B621D501987099700493B36 /* UIColor+Random.m */; };
+		1B621D55198709E000493B36 /* HTMGeofenceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B621D54198709E000493B36 /* HTMGeofenceManager.m */; };
+		1B621D58198715A100493B36 /* HTMGeofencedCircleRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B621D57198715A100493B36 /* HTMGeofencedCircleRenderer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B621D0C1987008A00493B36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B621CE41987008900493B36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B621CEB1987008900493B36;
+			remoteInfo = GeofenceTesting;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B621CEC1987008900493B36 /* GeofenceTesting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeofenceTesting.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B621CEF1987008900493B36 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1B621CF11987008900493B36 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1B621CF31987008900493B36 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1B621CF71987008900493B36 /* GeofenceTesting-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GeofenceTesting-Info.plist"; sourceTree = "<group>"; };
+		1B621CF91987008900493B36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1B621CFB1987008900493B36 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1B621CFD1987008900493B36 /* GeofenceTesting-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GeofenceTesting-Prefix.pch"; sourceTree = "<group>"; };
+		1B621CFE1987008900493B36 /* HTMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTMAppDelegate.h; sourceTree = "<group>"; };
+		1B621CFF1987008900493B36 /* HTMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTMAppDelegate.m; sourceTree = "<group>"; };
+		1B621D011987008900493B36 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1B621D071987008A00493B36 /* GeofenceTestingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeofenceTestingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B621D081987008A00493B36 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1B621D101987008A00493B36 /* GeofenceTestingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GeofenceTestingTests-Info.plist"; sourceTree = "<group>"; };
+		1B621D121987008A00493B36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1B621D141987008A00493B36 /* GeofenceTestingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeofenceTestingTests.m; sourceTree = "<group>"; };
+		1B621D221987014F00493B36 /* HTMMainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMMainTabBarController.h; sourceTree = "<group>"; };
+		1B621D231987014F00493B36 /* HTMMainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMMainTabBarController.m; sourceTree = "<group>"; };
+		1B621D251987017400493B36 /* HTMGeofenceLoggerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMGeofenceLoggerViewController.h; sourceTree = "<group>"; };
+		1B621D261987017400493B36 /* HTMGeofenceLoggerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMGeofenceLoggerViewController.m; sourceTree = "<group>"; };
+		1B621D281987018A00493B36 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		1B621D2F1987032F00493B36 /* HTMListTabBarIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HTMListTabBarIcon.png; sourceTree = "<group>"; };
+		1B621D301987032F00493B36 /* HTMListTabBarIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HTMListTabBarIcon@2x.png"; sourceTree = "<group>"; };
+		1B621D311987032F00493B36 /* HTMMapTabBarIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HTMMapTabBarIcon.png; sourceTree = "<group>"; };
+		1B621D321987032F00493B36 /* HTMMapTabBarIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HTMMapTabBarIcon@2x.png"; sourceTree = "<group>"; };
+		1B621D37198703FF00493B36 /* HTMMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMMapViewController.h; sourceTree = "<group>"; };
+		1B621D38198703FF00493B36 /* HTMMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMMapViewController.m; sourceTree = "<group>"; };
+		1B621D39198703FF00493B36 /* HTMMapViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HTMMapViewController.xib; sourceTree = "<group>"; };
+		1B621D3D1987045900493B36 /* MINDBODY-SLO.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "MINDBODY-SLO.gpx"; sourceTree = "<group>"; };
+		1B621D3F1987055C00493B36 /* MBCenterMapArrowGrey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MBCenterMapArrowGrey.png; sourceTree = "<group>"; };
+		1B621D401987055C00493B36 /* MBCenterMapArrowOrange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MBCenterMapArrowOrange.png; sourceTree = "<group>"; };
+		1B621D451987056200493B36 /* MBLocationArrowButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBLocationArrowButton.h; sourceTree = "<group>"; };
+		1B621D461987056200493B36 /* MBLocationArrowButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBLocationArrowButton.m; sourceTree = "<group>"; };
+		1B621D491987064500493B36 /* UIView+HelperTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HelperTools.h"; sourceTree = "<group>"; };
+		1B621D4A1987064500493B36 /* UIView+HelperTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HelperTools.m"; sourceTree = "<group>"; };
+		1B621D4C1987095800493B36 /* MKMapView+MBDebugDrawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKMapView+MBDebugDrawing.h"; sourceTree = "<group>"; };
+		1B621D4D1987095800493B36 /* MKMapView+MBDebugDrawing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKMapView+MBDebugDrawing.m"; sourceTree = "<group>"; };
+		1B621D4F1987099700493B36 /* UIColor+Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Random.h"; sourceTree = "<group>"; };
+		1B621D501987099700493B36 /* UIColor+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Random.m"; sourceTree = "<group>"; };
+		1B621D53198709E000493B36 /* HTMGeofenceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMGeofenceManager.h; sourceTree = "<group>"; };
+		1B621D54198709E000493B36 /* HTMGeofenceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMGeofenceManager.m; sourceTree = "<group>"; };
+		1B621D56198715A100493B36 /* HTMGeofencedCircleRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMGeofencedCircleRenderer.h; sourceTree = "<group>"; };
+		1B621D57198715A100493B36 /* HTMGeofencedCircleRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMGeofencedCircleRenderer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B621CE91987008900493B36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B621D291987018A00493B36 /* MapKit.framework in Frameworks */,
+				1B621CF21987008900493B36 /* CoreGraphics.framework in Frameworks */,
+				1B621CF41987008900493B36 /* UIKit.framework in Frameworks */,
+				1B621CF01987008900493B36 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B621D041987008A00493B36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B621D091987008A00493B36 /* XCTest.framework in Frameworks */,
+				1B621D0B1987008A00493B36 /* UIKit.framework in Frameworks */,
+				1B621D0A1987008A00493B36 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B621CE31987008900493B36 = {
+			isa = PBXGroup;
+			children = (
+				1B621CF51987008900493B36 /* GeofenceTesting */,
+				1B621D0E1987008A00493B36 /* GeofenceTestingTests */,
+				1B621CEE1987008900493B36 /* Frameworks */,
+				1B621CED1987008900493B36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B621CED1987008900493B36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B621CEC1987008900493B36 /* GeofenceTesting.app */,
+				1B621D071987008A00493B36 /* GeofenceTestingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B621CEE1987008900493B36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B621D281987018A00493B36 /* MapKit.framework */,
+				1B621CEF1987008900493B36 /* Foundation.framework */,
+				1B621CF11987008900493B36 /* CoreGraphics.framework */,
+				1B621CF31987008900493B36 /* UIKit.framework */,
+				1B621D081987008A00493B36 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1B621CF51987008900493B36 /* GeofenceTesting */ = {
+			isa = PBXGroup;
+			children = (
+				1B621D52198709CD00493B36 /* Managers */,
+				1B621D481987064500493B36 /* Categories */,
+				1B621D431987056200493B36 /* CustomViews */,
+				1B621D2D1987027600493B36 /* Resources */,
+				1B621D1E1987013700493B36 /* ViewControllers */,
+				1B621CFE1987008900493B36 /* HTMAppDelegate.h */,
+				1B621CFF1987008900493B36 /* HTMAppDelegate.m */,
+				1B621D011987008900493B36 /* Images.xcassets */,
+				1B621CF61987008900493B36 /* Supporting Files */,
+			);
+			path = GeofenceTesting;
+			sourceTree = "<group>";
+		};
+		1B621CF61987008900493B36 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B621CF71987008900493B36 /* GeofenceTesting-Info.plist */,
+				1B621CF81987008900493B36 /* InfoPlist.strings */,
+				1B621CFB1987008900493B36 /* main.m */,
+				1B621CFD1987008900493B36 /* GeofenceTesting-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1B621D0E1987008A00493B36 /* GeofenceTestingTests */ = {
+			isa = PBXGroup;
+			children = (
+				1B621D141987008A00493B36 /* GeofenceTestingTests.m */,
+				1B621D0F1987008A00493B36 /* Supporting Files */,
+			);
+			path = GeofenceTestingTests;
+			sourceTree = "<group>";
+		};
+		1B621D0F1987008A00493B36 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B621D101987008A00493B36 /* GeofenceTestingTests-Info.plist */,
+				1B621D111987008A00493B36 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1B621D1E1987013700493B36 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1B621D1F1987013700493B36 /* Logger */,
+				1B621D201987013700493B36 /* Main */,
+				1B621D211987013700493B36 /* Map */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1B621D1F1987013700493B36 /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				1B621D251987017400493B36 /* HTMGeofenceLoggerViewController.h */,
+				1B621D261987017400493B36 /* HTMGeofenceLoggerViewController.m */,
+			);
+			path = Logger;
+			sourceTree = "<group>";
+		};
+		1B621D201987013700493B36 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				1B621D221987014F00493B36 /* HTMMainTabBarController.h */,
+				1B621D231987014F00493B36 /* HTMMainTabBarController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		1B621D211987013700493B36 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				1B621D37198703FF00493B36 /* HTMMapViewController.h */,
+				1B621D38198703FF00493B36 /* HTMMapViewController.m */,
+				1B621D39198703FF00493B36 /* HTMMapViewController.xib */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		1B621D2D1987027600493B36 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1B621D3C1987045900493B36 /* GPX */,
+				1B621D2E1987027600493B36 /* images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1B621D2E1987027600493B36 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				1B621D3F1987055C00493B36 /* MBCenterMapArrowGrey.png */,
+				1B621D401987055C00493B36 /* MBCenterMapArrowOrange.png */,
+				1B621D2F1987032F00493B36 /* HTMListTabBarIcon.png */,
+				1B621D301987032F00493B36 /* HTMListTabBarIcon@2x.png */,
+				1B621D311987032F00493B36 /* HTMMapTabBarIcon.png */,
+				1B621D321987032F00493B36 /* HTMMapTabBarIcon@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		1B621D3C1987045900493B36 /* GPX */ = {
+			isa = PBXGroup;
+			children = (
+				1B621D3D1987045900493B36 /* MINDBODY-SLO.gpx */,
+			);
+			path = GPX;
+			sourceTree = "<group>";
+		};
+		1B621D431987056200493B36 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				1B621D441987056200493B36 /* Map */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		1B621D441987056200493B36 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				1B621D451987056200493B36 /* MBLocationArrowButton.h */,
+				1B621D461987056200493B36 /* MBLocationArrowButton.m */,
+				1B621D56198715A100493B36 /* HTMGeofencedCircleRenderer.h */,
+				1B621D57198715A100493B36 /* HTMGeofencedCircleRenderer.m */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		1B621D481987064500493B36 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				1B621D491987064500493B36 /* UIView+HelperTools.h */,
+				1B621D4A1987064500493B36 /* UIView+HelperTools.m */,
+				1B621D4C1987095800493B36 /* MKMapView+MBDebugDrawing.h */,
+				1B621D4D1987095800493B36 /* MKMapView+MBDebugDrawing.m */,
+				1B621D4F1987099700493B36 /* UIColor+Random.h */,
+				1B621D501987099700493B36 /* UIColor+Random.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		1B621D52198709CD00493B36 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				1B621D53198709E000493B36 /* HTMGeofenceManager.h */,
+				1B621D54198709E000493B36 /* HTMGeofenceManager.m */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B621CEB1987008900493B36 /* GeofenceTesting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B621D181987008A00493B36 /* Build configuration list for PBXNativeTarget "GeofenceTesting" */;
+			buildPhases = (
+				1B621CE81987008900493B36 /* Sources */,
+				1B621CE91987008900493B36 /* Frameworks */,
+				1B621CEA1987008900493B36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeofenceTesting;
+			productName = GeofenceTesting;
+			productReference = 1B621CEC1987008900493B36 /* GeofenceTesting.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B621D061987008A00493B36 /* GeofenceTestingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B621D1B1987008A00493B36 /* Build configuration list for PBXNativeTarget "GeofenceTestingTests" */;
+			buildPhases = (
+				1B621D031987008A00493B36 /* Sources */,
+				1B621D041987008A00493B36 /* Frameworks */,
+				1B621D051987008A00493B36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B621D0D1987008A00493B36 /* PBXTargetDependency */,
+			);
+			name = GeofenceTestingTests;
+			productName = GeofenceTestingTests;
+			productReference = 1B621D071987008A00493B36 /* GeofenceTestingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B621CE41987008900493B36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HTM;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Hammertime;
+				TargetAttributes = {
+					1B621D061987008A00493B36 = {
+						TestTargetID = 1B621CEB1987008900493B36;
+					};
+				};
+			};
+			buildConfigurationList = 1B621CE71987008900493B36 /* Build configuration list for PBXProject "GeofenceTesting" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1B621CE31987008900493B36;
+			productRefGroup = 1B621CED1987008900493B36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B621CEB1987008900493B36 /* GeofenceTesting */,
+				1B621D061987008A00493B36 /* GeofenceTestingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B621CEA1987008900493B36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B621D351987032F00493B36 /* HTMMapTabBarIcon.png in Resources */,
+				1B621CFA1987008900493B36 /* InfoPlist.strings in Resources */,
+				1B621D411987055C00493B36 /* MBCenterMapArrowGrey.png in Resources */,
+				1B621D361987032F00493B36 /* HTMMapTabBarIcon@2x.png in Resources */,
+				1B621D021987008900493B36 /* Images.xcassets in Resources */,
+				1B621D3B198703FF00493B36 /* HTMMapViewController.xib in Resources */,
+				1B621D331987032F00493B36 /* HTMListTabBarIcon.png in Resources */,
+				1B621D3E1987045900493B36 /* MINDBODY-SLO.gpx in Resources */,
+				1B621D421987055C00493B36 /* MBCenterMapArrowOrange.png in Resources */,
+				1B621D341987032F00493B36 /* HTMListTabBarIcon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B621D051987008A00493B36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B621D131987008A00493B36 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B621CE81987008900493B36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B621D3A198703FF00493B36 /* HTMMapViewController.m in Sources */,
+				1B621D271987017400493B36 /* HTMGeofenceLoggerViewController.m in Sources */,
+				1B621D4B1987064500493B36 /* UIView+HelperTools.m in Sources */,
+				1B621D511987099700493B36 /* UIColor+Random.m in Sources */,
+				1B621D4E1987095800493B36 /* MKMapView+MBDebugDrawing.m in Sources */,
+				1B621D241987014F00493B36 /* HTMMainTabBarController.m in Sources */,
+				1B621D001987008900493B36 /* HTMAppDelegate.m in Sources */,
+				1B621D55198709E000493B36 /* HTMGeofenceManager.m in Sources */,
+				1B621CFC1987008900493B36 /* main.m in Sources */,
+				1B621D471987056200493B36 /* MBLocationArrowButton.m in Sources */,
+				1B621D58198715A100493B36 /* HTMGeofencedCircleRenderer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B621D031987008A00493B36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B621D151987008A00493B36 /* GeofenceTestingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B621D0D1987008A00493B36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B621CEB1987008900493B36 /* GeofenceTesting */;
+			targetProxy = 1B621D0C1987008A00493B36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1B621CF81987008900493B36 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B621CF91987008900493B36 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1B621D111987008A00493B36 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B621D121987008A00493B36 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B621D161987008A00493B36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1B621D171987008A00493B36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B621D191987008A00493B36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GeofenceTesting/GeofenceTesting-Prefix.pch";
+				INFOPLIST_FILE = "GeofenceTesting/GeofenceTesting-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1B621D1A1987008A00493B36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GeofenceTesting/GeofenceTesting-Prefix.pch";
+				INFOPLIST_FILE = "GeofenceTesting/GeofenceTesting-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1B621D1C1987008A00493B36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GeofenceTesting.app/GeofenceTesting";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GeofenceTesting/GeofenceTesting-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GeofenceTestingTests/GeofenceTestingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1B621D1D1987008A00493B36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GeofenceTesting.app/GeofenceTesting";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GeofenceTesting/GeofenceTesting-Prefix.pch";
+				INFOPLIST_FILE = "GeofenceTestingTests/GeofenceTestingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B621CE71987008900493B36 /* Build configuration list for PBXProject "GeofenceTesting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B621D161987008A00493B36 /* Debug */,
+				1B621D171987008A00493B36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B621D181987008A00493B36 /* Build configuration list for PBXNativeTarget "GeofenceTesting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B621D191987008A00493B36 /* Debug */,
+				1B621D1A1987008A00493B36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1B621D1B1987008A00493B36 /* Build configuration list for PBXNativeTarget "GeofenceTestingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B621D1C1987008A00493B36 /* Debug */,
+				1B621D1D1987008A00493B36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B621CE41987008900493B36 /* Project object */;
+}
