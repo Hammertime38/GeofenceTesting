@@ -1,0 +1,828 @@
+TGeofenceTesting
+v6
+r1
+cCheck dependencies
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/GeofenceTesting.app/ResourceRules.plist
+cPhaseScriptExecution Check\ Pods\ Manifest.lock /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Script-C995FD55940F44358C08B797.sh
+cProcessPCH /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/PrecompiledHeaders/GeofenceTesting-Prefix-dupogthqawtgughchsstanrgnzdn/GeofenceTesting-Prefix.pch.pch GeofenceTesting/GeofenceTesting-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMMapViewController.o /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/ViewControllers/Map/HTMMapViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMGeofenceLoggerViewController.o /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/ViewControllers/Logger/HTMGeofenceLoggerViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/UIView+HelperTools.o /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/Categories/UIView+HelperTools.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMLogger.o /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/Logging/HTMLogger.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/UIColor+Random.o /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/Categories/UIColor+Random.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/MKMapView+MBDebugDrawing.o /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/Categories/MKMapView+MBDebugDrawing.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMMainTabBarController.o /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/ViewControllers/Main/HTMMainTabBarController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMLogTableViewCell.o /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/CustomCells/HTMLogTableViewCell.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMAppDelegate.o /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/HTMAppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMGeofenceManager.o /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/Managers/HTMGeofenceManager.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/main.o /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/MBLocationArrowButton.o /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/CustomViews/Map/MBLocationArrowButton.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMGeofencedCircleRenderer.o /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/CustomViews/Map/HTMGeofencedCircleRenderer.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/GeofenceTesting.app/GeofenceTesting normal arm64
+cCopyPNGFile /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/GeofenceTesting.app/HTMMapTabBarIcon.png GeofenceTesting/Resources/images/HTMMapTabBarIcon.png
+cCopyStringsFile /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/GeofenceTesting.app/en.lproj/InfoPlist.strings GeofenceTesting/en.lproj/InfoPlist.strings
+cCopyPNGFile /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/GeofenceTesting.app/MBCenterMapArrowGrey.png GeofenceTesting/Resources/images/MBCenterMapArrowGrey.png
+cCopyPNGFile /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/GeofenceTesting.app/HTMMapTabBarIcon@2x.png GeofenceTesting/Resources/images/HTMMapTabBarIcon@2x.png
+cCompileXIB /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/ViewControllers/Map/HTMMapViewController.xib
+cCopyPNGFile /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/GeofenceTesting.app/HTMListTabBarIcon.png GeofenceTesting/Resources/images/HTMListTabBarIcon.png
+cCpResource GeofenceTesting/Resources/GPX/MINDBODY-SLO.gpx Build/Products/Debug-iphoneos/GeofenceTesting.app/MINDBODY-SLO.gpx
+cCopyPNGFile /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/GeofenceTesting.app/MBCenterMapArrowOrange.png GeofenceTesting/Resources/images/MBCenterMapArrowOrange.png
+cCopyPNGFile /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/GeofenceTesting.app/HTMListTabBarIcon@2x.png GeofenceTesting/Resources/images/HTMListTabBarIcon@2x.png
+cCompileAssetCatalog /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/GeofenceTesting.app /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/Images.xcassets
+cProcessInfoPlistFile /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/GeofenceTesting.app/Info.plist /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/GeofenceTesting-Info.plist
+cGenerateDSYMFile /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/GeofenceTesting.app.dSYM /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/GeofenceTesting.app/GeofenceTesting
+cPhaseScriptExecution Copy\ Pods\ Resources /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Script-5367914028424717ACC1F942.sh
+cProcessProductPackaging /Users/john.hammerlund/Library/MobileDevice/Provisioning\ Profiles/DE82DDE6-2614-4087-AD5C-1E71C2104E79.mobileprovision /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/GeofenceTesting.app/embedded.mobileprovision
+cTouch /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/GeofenceTesting.app
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/GeofenceTesting.xcent
+cCodeSign /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/GeofenceTesting.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk
+c00000000534C0C530000000000000132
+t1397492819
+s306
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist
+c000000005320A2D80000000000000094
+t1394647768
+s148
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist
+c000000005320A2D80000000000000096
+t1394647768
+s150
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/SDKSettings.plist
+c000000005320A2D8000000000000036B
+t1394647768
+s875
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c000000005320A2D8000000000000019E
+t1394647768
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000534C0C2900000000004D7BC0
+t1397492777
+s5077952
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000005320A2DA0000000000A90C10
+t1394647770
+s11078672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c000000005320A2DA00000000003C0F90
+t1394647770
+s3936144
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000005320A2DE0000000002759920
+t1394647774
+s41261344
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c000000005320A2FF0000000000000ADC
+t1394647807
+s2780
+
+N/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/GeofenceTesting.xcent
+t1407580045
+s511
+
+N/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/GeofenceTesting.LinkFileList
+c0000000053D83A270000000000000A49
+t1406679591
+s2633
+
+N/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMAppDelegate.o
+t1407580044
+s73252
+
+N/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMGeofenceLoggerViewController.o
+t1407580044
+s54480
+
+N/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMGeofenceManager.o
+t1407580044
+s40048
+
+N/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMGeofencedCircleRenderer.o
+t1407580044
+s16080
+
+N/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMLogTableViewCell.o
+t1407580044
+s52252
+
+N/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMLogger.o
+t1407580044
+s17196
+
+N/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMMainTabBarController.o
+t1407580044
+s46440
+
+N/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMMapViewController.o
+t1407580044
+s93436
+
+N/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/MBLocationArrowButton.o
+t1407580044
+s66380
+
+N/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/MKMapView+MBDebugDrawing.o
+t1407580044
+s57220
+
+N/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/UIColor+Random.o
+t1407580044
+s7000
+
+N/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/UIView+HelperTools.o
+t1407580044
+s62832
+
+N/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/main.o
+t1407580044
+s4332
+
+N/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Script-5367914028424717ACC1F942.sh
+c0000000053D83A27000000000000003F
+t1406679591
+s63
+
+N/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Script-C995FD55940F44358C08B797.sh
+c0000000053D83A270000000000000103
+t1406679591
+s259
+
+N/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/assetcatalog_dependencies.txt
+t1406679648
+s368
+
+N/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/assetcatalog_generated_info.plist
+t1406679648
+s525
+
+N/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/PrecompiledHeaders/GeofenceTesting-Prefix-dupogthqawtgughchsstanrgnzdn/GeofenceTesting-Prefix.pch.pch
+t1407580044
+s145076
+
+N/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/GeofenceTesting.app
+t1407580045
+s646
+
+N/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/GeofenceTesting.app.dSYM
+t1406680179
+s102
+
+N/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/GeofenceTesting.app/GeofenceTesting
+t1407580044
+s436276
+
+N/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/GeofenceTesting.app/HTMListTabBarIcon.png
+t1406679648
+s145
+
+N/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/GeofenceTesting.app/HTMListTabBarIcon@2x.png
+t1406679648
+s167
+
+N/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/GeofenceTesting.app/HTMMapTabBarIcon.png
+t1406679648
+s1393
+
+N/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/GeofenceTesting.app/HTMMapTabBarIcon@2x.png
+t1406679648
+s1508
+
+N/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/GeofenceTesting.app/HTMMapViewController.nib
+t1406679652
+s2294
+
+N/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/GeofenceTesting.app/Info.plist
+t1406680179
+s1261
+
+N/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/GeofenceTesting.app/MBCenterMapArrowGrey.png
+t1406679648
+s18330
+
+N/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/GeofenceTesting.app/MBCenterMapArrowOrange.png
+t1406679648
+s18324
+
+N/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/GeofenceTesting.app/MINDBODY-SLO.gpx
+t1406679648
+s163
+
+N/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/GeofenceTesting.app/PkgInfo
+t1406680179
+s8
+
+N/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/GeofenceTesting.app/ResourceRules.plist
+t1406679646
+s164
+
+N/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/GeofenceTesting.app/embedded.mobileprovision
+t1407580045
+s9669
+
+N/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/GeofenceTesting.app/en.lproj/InfoPlist.strings
+t1406679648
+s42
+
+N/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/libPods-GeofenceTesting.a
+c0000000053E5F78C00000000000A9B30
+t1407580044
+s695088
+
+N/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/Categories/MKMapView+MBDebugDrawing.m
+c0000000053D7D0BE0000000000000F2A
+t1406652606
+s3882
+
+N/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/Categories/UIColor+Random.m
+c0000000053CCAB6F000000000000023C
+t1405922159
+s572
+
+N/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/Categories/UIView+HelperTools.m
+c000000005397BA4C0000000000001307
+t1402452556
+s4871
+
+N/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/CustomCells/HTMLogTableViewCell.m
+c0000000053D8347400000000000006F3
+t1406678132
+s1779
+
+N/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/CustomViews/Map/HTMGeofencedCircleRenderer.m
+c0000000053D7CF8A0000000000000432
+t1406652298
+s1074
+
+N/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/CustomViews/Map/MBLocationArrowButton.m
+c0000000053D6CEE400000000000010DD
+t1406586596
+s4317
+
+N/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/GeofenceTesting-Info.plist
+c0000000053D83C72000000000000046D
+t1406680178
+s1133
+
+N/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/GeofenceTesting-Prefix.pch
+c0000000053D82C9800000000000001B3
+t1406676120
+s435
+
+N/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/HTMAppDelegate.m
+c0000000053D82C0E0000000000000AC5
+t1406675982
+s2757
+
+N/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/Images.xcassets
+c0000000053D6C9090000000000000088
+t1406585097
+s136
+
+N/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/Logging/HTMLogger.m
+c0000000053D8399600000000000003C4
+t1406679446
+s964
+
+N/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/Managers/HTMGeofenceManager.m
+c0000000053D8355C0000000000000D7F
+t1406678364
+s3455
+
+N/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/Resources/GPX/MINDBODY-SLO.gpx
+c000000005397BA4F00000000000000A3
+t1402452559
+s163
+
+N/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/Resources/images/HTMListTabBarIcon.png
+c00000000515C9A96000000000000008D
+t1365023382
+s141
+
+N/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/Resources/images/HTMListTabBarIcon@2x.png
+c00000000515C9A9600000000000000AE
+t1365023382
+s174
+
+N/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/Resources/images/HTMMapTabBarIcon.png
+c00000000515C9A9400000000000005C4
+t1365023380
+s1476
+
+N/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/Resources/images/HTMMapTabBarIcon@2x.png
+c00000000515C9A94000000000000080C
+t1365023380
+s2060
+
+N/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/Resources/images/MBCenterMapArrowGrey.png
+c000000005397BA4D0000000000004726
+t1402452557
+s18214
+
+N/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/Resources/images/MBCenterMapArrowOrange.png
+c000000005397BA4D0000000000004715
+t1402452557
+s18197
+
+N/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/ViewControllers/Logger/HTMGeofenceLoggerViewController.m
+c0000000053D83AE3000000000000073B
+t1406679779
+s1851
+
+N/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/ViewControllers/Main/HTMMainTabBarController.m
+c0000000053D6CC3400000000000003ED
+t1406585908
+s1005
+
+N/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/ViewControllers/Map/HTMMapViewController.m
+c0000000053E13E0C00000000000016A1
+t1407270412
+s5793
+
+N/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/ViewControllers/Map/HTMMapViewController.xib
+c0000000053D6CF660000000000000BD4
+t1406586726
+s3028
+
+N/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/en.lproj/InfoPlist.strings
+c0000000053D6C909000000000000002D
+t1406585097
+s45
+
+N/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/main.m
+c0000000053D6C9090000000000000162
+t1406585097
+s354
+
+N/Users/john.hammerlund/Library/MobileDevice/Provisioning Profiles/DE82DDE6-2614-4087-AD5C-1E71C2104E79.mobileprovision
+c0000000053DFE5DB00000000000025C5
+t1407182299
+s9669
+
+CBuild AST from /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/Categories/MKMapView+MBDebugDrawing.m
+r0
+
+CBuild AST from /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/Categories/UIColor+Random.m
+r0
+
+CBuild AST from /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/Categories/UIView+HelperTools.m
+r0
+
+CBuild AST from /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/CustomCells/HTMLogTableViewCell.m
+r0
+
+CBuild AST from /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/CustomViews/Map/HTMGeofencedCircleRenderer.m
+r0
+
+CBuild AST from /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/CustomViews/Map/MBLocationArrowButton.m
+r0
+
+CBuild AST from /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/HTMAppDelegate.m
+r0
+
+CBuild AST from /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/Logging/HTMLogger.m
+r0
+
+CBuild AST from /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/Managers/HTMGeofenceManager.m
+r0
+
+CBuild AST from /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/ViewControllers/Logger/HTMGeofenceLoggerViewController.m
+r0
+
+CBuild AST from /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/ViewControllers/Main/HTMMainTabBarController.m
+r0
+
+CBuild AST from /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/ViewControllers/Map/HTMMapViewController.m
+r0
+
+CBuild AST from /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies7e00760c2f96b941^dba2840c2f96b941^---0#1#1#--18"Check dependencies36"FDA7AF5E-D6B7-48EC-909D-A9B4553C8D94-
+
+CCodeSign /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/GeofenceTesting.app
+s429272845.378688
+e429272845.579587
+r1
+xCodeSign
+x/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/GeofenceTesting.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"CodeSign Build/Products/Debug-iphoneos/GeofenceTesting.app58"CodeSign Build/Products/Debug-iphoneos/GeofenceTesting.app240a610d2f96b941^cc60940d2f96b941^---0#0#1#-19%DVTDocumentLocation2@142"file:///Users/john.hammerlund/Desktop/OSX%20Apps/iOS%20Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/GeofenceTesting.app/0000000000000000^1215"CodeSign Build/Products/Debug-iphoneos/GeofenceTesting.app    cd "/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting"    export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    Using code signing identity "iPhone Developer: John Hammerlund (KHCLW686K6)" and provisioning profile "8_14_14_Wildcard" (DE82DDE6-2614-4087-AD5C-1E71C2104E79)    /usr/bin/codesign --force --sign B1A63A267A352C9D1D0CD1E87C58A5A2BA79A8E5 --resource-rules=/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/GeofenceTesting.app/ResourceRules.plist --entitlements /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/GeofenceTesting.xcent /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/GeofenceTesting.app36"D4120726-7D9C-4E07-8EF7-15B8A4D65B97-
+b4A85659B-CF29-401B-90FA-1BCE1752B6BA
+
+CCompileAssetCatalog /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/GeofenceTesting.app /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/Images.xcassets
+r0
+
+CCompileC Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMAppDelegate.o /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/HTMAppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s429272844.650274
+e429272844.805376
+r1
+xCompileC
+xBuild/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMAppDelegate.o
+x/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/HTMAppDelegate.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/HTMAppDelegate.m
+d/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/HTMAppDelegate.h
+d/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/ViewControllers/Main/HTMMainTabBarController.h
+d/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/Logging/HTMLogger.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection121"Compile /Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/HTMAppDelegate.m227"CompileC Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMAppDelegate.o GeofenceTesting/HTMAppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilerf297a60c2f96b941^b62dce0c2f96b941^---0#0#1#-19%DVTDocumentLocation2@124"file:///Users/john.hammerlund/Desktop/OSX%20Apps/iOS%20Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/HTMAppDelegate.m0000000000000000^4705"CompileC Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMAppDelegate.o GeofenceTesting/HTMAppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/john.hammerlund/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/GeofenceTesting-generated-files.hmap -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/GeofenceTesting-own-target-headers.hmap -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/GeofenceTesting-all-target-headers.hmap -iquote /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/GeofenceTesting-project-headers.hmap -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/include -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Pods/Headers -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Pods/Headers/CocoaLumberjack -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/DerivedSources/arm64 -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/DerivedSources -F/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos -isystem /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Pods/Headers -isystem /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Pods/Headers/CocoaLumberjack -include /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/PrecompiledHeaders/GeofenceTesting-Prefix-dupogthqawtgughchsstanrgnzdn/GeofenceTesting-Prefix.pch -MMD -MT dependencies -MF /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMAppDelegate.d --serialize-diagnostics /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMAppDelegate.dia -c /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/HTMAppDelegate.m -o /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMAppDelegate.o36"0DC8B06A-69B9-481E-ABDF-926EBB5F2BAB-
+b4A85659B-CF29-401B-90FA-1BCE1752B6BA
+
+CCompileC Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMGeofenceLoggerViewController.o /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/ViewControllers/Logger/HTMGeofenceLoggerViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s429272844.584366
+e429272844.732673
+r1
+xCompileC
+xBuild/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMGeofenceLoggerViewController.o
+x/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/ViewControllers/Logger/HTMGeofenceLoggerViewController.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/ViewControllers/Logger/HTMGeofenceLoggerViewController.m
+d/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/ViewControllers/Logger/HTMGeofenceLoggerViewController.h
+d/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/Logging/HTMLogger.h
+d/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/CustomCells/HTMLogTableViewCell.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection161"Compile /Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/ViewControllers/Logger/HTMGeofenceLoggerViewController.m284"CompileC Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMGeofenceLoggerViewController.o GeofenceTesting/ViewControllers/Logger/HTMGeofenceLoggerViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler93aa950c2f96b941^a94ebb0c2f96b941^---0#0#1#-19%DVTDocumentLocation2@164"file:///Users/john.hammerlund/Desktop/OSX%20Apps/iOS%20Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/ViewControllers/Logger/HTMGeofenceLoggerViewController.m0000000000000000^4853"CompileC Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMGeofenceLoggerViewController.o GeofenceTesting/ViewControllers/Logger/HTMGeofenceLoggerViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/john.hammerlund/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/GeofenceTesting-generated-files.hmap -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/GeofenceTesting-own-target-headers.hmap -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/GeofenceTesting-all-target-headers.hmap -iquote /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/GeofenceTesting-project-headers.hmap -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/include -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Pods/Headers -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Pods/Headers/CocoaLumberjack -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/DerivedSources/arm64 -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/DerivedSources -F/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos -isystem /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Pods/Headers -isystem /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Pods/Headers/CocoaLumberjack -include /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/PrecompiledHeaders/GeofenceTesting-Prefix-dupogthqawtgughchsstanrgnzdn/GeofenceTesting-Prefix.pch -MMD -MT dependencies -MF /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMGeofenceLoggerViewController.d --serialize-diagnostics /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMGeofenceLoggerViewController.dia -c /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/ViewControllers/Logger/HTMGeofenceLoggerViewController.m -o /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMGeofenceLoggerViewController.o36"D8FB4A2F-9D2D-45A7-9113-5224C808227B-
+b4A85659B-CF29-401B-90FA-1BCE1752B6BA
+
+CCompileC Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMGeofenceManager.o /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/Managers/HTMGeofenceManager.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s429272844.659619
+e429272844.787443
+r1
+xCompileC
+xBuild/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMGeofenceManager.o
+x/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/Managers/HTMGeofenceManager.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/Managers/HTMGeofenceManager.m
+d/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/Managers/HTMGeofenceManager.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection134"Compile /Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/Managers/HTMGeofenceManager.m244"CompileC Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMGeofenceManager.o GeofenceTesting/Managers/HTMGeofenceManager.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler0dfca80c2f96b941^9a95c90c2f96b941^---0#0#1#-19%DVTDocumentLocation2@137"file:///Users/john.hammerlund/Desktop/OSX%20Apps/iOS%20Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/Managers/HTMGeofenceManager.m0000000000000000^4747"CompileC Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMGeofenceManager.o GeofenceTesting/Managers/HTMGeofenceManager.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/john.hammerlund/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/GeofenceTesting-generated-files.hmap -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/GeofenceTesting-own-target-headers.hmap -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/GeofenceTesting-all-target-headers.hmap -iquote /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/GeofenceTesting-project-headers.hmap -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/include -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Pods/Headers -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Pods/Headers/CocoaLumberjack -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/DerivedSources/arm64 -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/DerivedSources -F/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos -isystem /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Pods/Headers -isystem /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Pods/Headers/CocoaLumberjack -include /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/PrecompiledHeaders/GeofenceTesting-Prefix-dupogthqawtgughchsstanrgnzdn/GeofenceTesting-Prefix.pch -MMD -MT dependencies -MF /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMGeofenceManager.d --serialize-diagnostics /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMGeofenceManager.dia -c /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/Managers/HTMGeofenceManager.m -o /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMGeofenceManager.o36"872C8D54-BDDC-446F-BAC5-1897931AEDA2-
+b4A85659B-CF29-401B-90FA-1BCE1752B6BA
+
+CCompileC Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMGeofencedCircleRenderer.o /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/CustomViews/Map/HTMGeofencedCircleRenderer.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s429272844.735677
+e429272844.813331
+r1
+xCompileC
+xBuild/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMGeofencedCircleRenderer.o
+x/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/CustomViews/Map/HTMGeofencedCircleRenderer.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/CustomViews/Map/HTMGeofencedCircleRenderer.m
+d/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/CustomViews/Map/HTMGeofencedCircleRenderer.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection149"Compile /Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/CustomViews/Map/HTMGeofencedCircleRenderer.m267"CompileC Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMGeofencedCircleRenderer.o GeofenceTesting/CustomViews/Map/HTMGeofencedCircleRenderer.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilerac6fbc0c2f96b941^db36d00c2f96b941^---0#0#1#-19%DVTDocumentLocation2@152"file:///Users/john.hammerlund/Desktop/OSX%20Apps/iOS%20Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/CustomViews/Map/HTMGeofencedCircleRenderer.m0000000000000000^4809"CompileC Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMGeofencedCircleRenderer.o GeofenceTesting/CustomViews/Map/HTMGeofencedCircleRenderer.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/john.hammerlund/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/GeofenceTesting-generated-files.hmap -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/GeofenceTesting-own-target-headers.hmap -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/GeofenceTesting-all-target-headers.hmap -iquote /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/GeofenceTesting-project-headers.hmap -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/include -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Pods/Headers -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Pods/Headers/CocoaLumberjack -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/DerivedSources/arm64 -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/DerivedSources -F/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos -isystem /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Pods/Headers -isystem /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Pods/Headers/CocoaLumberjack -include /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/PrecompiledHeaders/GeofenceTesting-Prefix-dupogthqawtgughchsstanrgnzdn/GeofenceTesting-Prefix.pch -MMD -MT dependencies -MF /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMGeofencedCircleRenderer.d --serialize-diagnostics /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMGeofencedCircleRenderer.dia -c /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/CustomViews/Map/HTMGeofencedCircleRenderer.m -o /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMGeofencedCircleRenderer.o36"993DA276-F388-432F-AEBA-3FB2A0D78D4C-
+b4A85659B-CF29-401B-90FA-1BCE1752B6BA
+
+CCompileC Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMLogTableViewCell.o /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/CustomCells/HTMLogTableViewCell.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s429272844.586478
+e429272844.732362
+r1
+xCompileC
+xBuild/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMLogTableViewCell.o
+x/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/CustomCells/HTMLogTableViewCell.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/CustomCells/HTMLogTableViewCell.m
+d/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/CustomCells/HTMLogTableViewCell.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection138"Compile /Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/CustomCells/HTMLogTableViewCell.m249"CompileC Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMLogTableViewCell.o GeofenceTesting/CustomCells/HTMLogTableViewCell.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilerb550960c2f96b941^787cbb0c2f96b941^---0#0#1#-19%DVTDocumentLocation2@141"file:///Users/john.hammerlund/Desktop/OSX%20Apps/iOS%20Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/CustomCells/HTMLogTableViewCell.m0000000000000000^4759"CompileC Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMLogTableViewCell.o GeofenceTesting/CustomCells/HTMLogTableViewCell.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/john.hammerlund/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/GeofenceTesting-generated-files.hmap -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/GeofenceTesting-own-target-headers.hmap -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/GeofenceTesting-all-target-headers.hmap -iquote /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/GeofenceTesting-project-headers.hmap -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/include -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Pods/Headers -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Pods/Headers/CocoaLumberjack -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/DerivedSources/arm64 -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/DerivedSources -F/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos -isystem /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Pods/Headers -isystem /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Pods/Headers/CocoaLumberjack -include /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/PrecompiledHeaders/GeofenceTesting-Prefix-dupogthqawtgughchsstanrgnzdn/GeofenceTesting-Prefix.pch -MMD -MT dependencies -MF /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMLogTableViewCell.d --serialize-diagnostics /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMLogTableViewCell.dia -c /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/CustomCells/HTMLogTableViewCell.m -o /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMLogTableViewCell.o36"39C288A4-8515-4934-9E32-1DEA0B4910F1-
+b4A85659B-CF29-401B-90FA-1BCE1752B6BA
+
+CCompileC Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMLogger.o /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/Logging/HTMLogger.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s429272844.584857
+e429272844.658005
+r1
+xCompileC
+xBuild/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMLogger.o
+x/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/Logging/HTMLogger.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/Logging/HTMLogger.m
+d/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/Logging/HTMLogger.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection124"Compile /Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/Logging/HTMLogger.m225"CompileC Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMLogger.o GeofenceTesting/Logging/HTMLogger.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler13d3950c2f96b941^376fa80c2f96b941^---0#0#1#-19%DVTDocumentLocation2@127"file:///Users/john.hammerlund/Desktop/OSX%20Apps/iOS%20Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/Logging/HTMLogger.m0000000000000000^4691"CompileC Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMLogger.o GeofenceTesting/Logging/HTMLogger.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/john.hammerlund/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/GeofenceTesting-generated-files.hmap -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/GeofenceTesting-own-target-headers.hmap -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/GeofenceTesting-all-target-headers.hmap -iquote /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/GeofenceTesting-project-headers.hmap -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/include -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Pods/Headers -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Pods/Headers/CocoaLumberjack -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/DerivedSources/arm64 -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/DerivedSources -F/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos -isystem /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Pods/Headers -isystem /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Pods/Headers/CocoaLumberjack -include /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/PrecompiledHeaders/GeofenceTesting-Prefix-dupogthqawtgughchsstanrgnzdn/GeofenceTesting-Prefix.pch -MMD -MT dependencies -MF /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMLogger.d --serialize-diagnostics /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMLogger.dia -c /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/Logging/HTMLogger.m -o /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMLogger.o36"7455A5B5-EC1D-445C-91FE-ED856133B087-
+b4A85659B-CF29-401B-90FA-1BCE1752B6BA
+
+CCompileC Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMMainTabBarController.o /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/ViewControllers/Main/HTMMainTabBarController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s429272844.586047
+e429272844.727445
+r1
+xCompileC
+xBuild/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMMainTabBarController.o
+x/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/ViewControllers/Main/HTMMainTabBarController.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/ViewControllers/Main/HTMMainTabBarController.m
+d/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/ViewControllers/Main/HTMMainTabBarController.h
+d/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/ViewControllers/Logger/HTMGeofenceLoggerViewController.h
+d/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/ViewControllers/Map/HTMMapViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection151"Compile /Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/ViewControllers/Main/HTMMainTabBarController.m266"CompileC Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMMainTabBarController.o GeofenceTesting/ViewControllers/Main/HTMMainTabBarController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler193a960c2f96b941^c539ba0c2f96b941^---0#0#1#-19%DVTDocumentLocation2@154"file:///Users/john.hammerlund/Desktop/OSX%20Apps/iOS%20Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/ViewControllers/Main/HTMMainTabBarController.m0000000000000000^4801"CompileC Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMMainTabBarController.o GeofenceTesting/ViewControllers/Main/HTMMainTabBarController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/john.hammerlund/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/GeofenceTesting-generated-files.hmap -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/GeofenceTesting-own-target-headers.hmap -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/GeofenceTesting-all-target-headers.hmap -iquote /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/GeofenceTesting-project-headers.hmap -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/include -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Pods/Headers -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Pods/Headers/CocoaLumberjack -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/DerivedSources/arm64 -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/DerivedSources -F/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos -isystem /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Pods/Headers -isystem /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Pods/Headers/CocoaLumberjack -include /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/PrecompiledHeaders/GeofenceTesting-Prefix-dupogthqawtgughchsstanrgnzdn/GeofenceTesting-Prefix.pch -MMD -MT dependencies -MF /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMMainTabBarController.d --serialize-diagnostics /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMMainTabBarController.dia -c /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/ViewControllers/Main/HTMMainTabBarController.m -o /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMMainTabBarController.o36"CB083061-5F0D-434B-80C5-829041CE352D-
+b4A85659B-CF29-401B-90FA-1BCE1752B6BA
+
+CCompileC Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMMapViewController.o /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/ViewControllers/Map/HTMMapViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s429272844.584084
+e429272844.763046
+r1
+xCompileC
+xBuild/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMMapViewController.o
+x/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/ViewControllers/Map/HTMMapViewController.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/ViewControllers/Map/HTMMapViewController.m
+d/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/ViewControllers/Map/HTMMapViewController.h
+d/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/CustomViews/Map/MBLocationArrowButton.h
+d/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/Categories/MKMapView+MBDebugDrawing.h
+d/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/Managers/HTMGeofenceManager.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection147"Compile /Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/ViewControllers/Map/HTMMapViewController.m259"CompileC Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMMapViewController.o GeofenceTesting/ViewControllers/Map/HTMMapViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler849a950c2f96b941^6057c30c2f96b941^---0#0#1#-19%DVTDocumentLocation2@150"file:///Users/john.hammerlund/Desktop/OSX%20Apps/iOS%20Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/ViewControllers/Map/HTMMapViewController.m0000000000000000^4781"CompileC Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMMapViewController.o GeofenceTesting/ViewControllers/Map/HTMMapViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/john.hammerlund/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/GeofenceTesting-generated-files.hmap -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/GeofenceTesting-own-target-headers.hmap -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/GeofenceTesting-all-target-headers.hmap -iquote /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/GeofenceTesting-project-headers.hmap -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/include -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Pods/Headers -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Pods/Headers/CocoaLumberjack -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/DerivedSources/arm64 -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/DerivedSources -F/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos -isystem /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Pods/Headers -isystem /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Pods/Headers/CocoaLumberjack -include /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/PrecompiledHeaders/GeofenceTesting-Prefix-dupogthqawtgughchsstanrgnzdn/GeofenceTesting-Prefix.pch -MMD -MT dependencies -MF /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMMapViewController.d --serialize-diagnostics /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMMapViewController.dia -c /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/ViewControllers/Map/HTMMapViewController.m -o /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMMapViewController.o36"367C5755-802C-422A-BE9C-41AF7482127D-
+b4A85659B-CF29-401B-90FA-1BCE1752B6BA
+
+CCompileC Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/MBLocationArrowButton.o /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/CustomViews/Map/MBLocationArrowButton.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s429272844.733507
+e429272844.850305
+r1
+xCompileC
+xBuild/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/MBLocationArrowButton.o
+x/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/CustomViews/Map/MBLocationArrowButton.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/CustomViews/Map/MBLocationArrowButton.m
+d/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/CustomViews/Map/MBLocationArrowButton.h
+d/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/Categories/UIView+HelperTools.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection144"Compile /Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/CustomViews/Map/MBLocationArrowButton.m257"CompileC Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/MBLocationArrowButton.o GeofenceTesting/CustomViews/Map/MBLocationArrowButton.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilerb328bc0c2f96b941^1daed90c2f96b941^---0#0#1#-19%DVTDocumentLocation2@147"file:///Users/john.hammerlund/Desktop/OSX%20Apps/iOS%20Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/CustomViews/Map/MBLocationArrowButton.m0000000000000000^4779"CompileC Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/MBLocationArrowButton.o GeofenceTesting/CustomViews/Map/MBLocationArrowButton.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/john.hammerlund/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/GeofenceTesting-generated-files.hmap -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/GeofenceTesting-own-target-headers.hmap -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/GeofenceTesting-all-target-headers.hmap -iquote /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/GeofenceTesting-project-headers.hmap -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/include -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Pods/Headers -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Pods/Headers/CocoaLumberjack -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/DerivedSources/arm64 -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/DerivedSources -F/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos -isystem /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Pods/Headers -isystem /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Pods/Headers/CocoaLumberjack -include /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/PrecompiledHeaders/GeofenceTesting-Prefix-dupogthqawtgughchsstanrgnzdn/GeofenceTesting-Prefix.pch -MMD -MT dependencies -MF /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/MBLocationArrowButton.d --serialize-diagnostics /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/MBLocationArrowButton.dia -c /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/CustomViews/Map/MBLocationArrowButton.m -o /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/MBLocationArrowButton.o36"0C208DD1-1313-4973-8623-12A7123FECA9-
+b4A85659B-CF29-401B-90FA-1BCE1752B6BA
+
+CCompileC Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/MKMapView+MBDebugDrawing.o /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/Categories/MKMapView+MBDebugDrawing.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s429272844.585590
+e429272844.752262
+r1
+xCompileC
+xBuild/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/MKMapView+MBDebugDrawing.o
+x/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/Categories/MKMapView+MBDebugDrawing.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/Categories/MKMapView+MBDebugDrawing.m
+d/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/Categories/MKMapView+MBDebugDrawing.h
+d/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/Categories/UIColor+Random.h
+d/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/Managers/HTMGeofenceManager.h
+d/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/CustomViews/Map/HTMGeofencedCircleRenderer.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection142"Compile /Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/Categories/MKMapView+MBDebugDrawing.m258"CompileC Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/MKMapView+MBDebugDrawing.o GeofenceTesting/Categories/MKMapView+MBDebugDrawing.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilerdf18960c2f96b941^b494c00c2f96b941^---0#0#1#-19%DVTDocumentLocation2@145"file:///Users/john.hammerlund/Desktop/OSX%20Apps/iOS%20Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/Categories/MKMapView+MBDebugDrawing.m0000000000000000^4787"CompileC Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/MKMapView+MBDebugDrawing.o GeofenceTesting/Categories/MKMapView+MBDebugDrawing.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/john.hammerlund/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/GeofenceTesting-generated-files.hmap -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/GeofenceTesting-own-target-headers.hmap -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/GeofenceTesting-all-target-headers.hmap -iquote /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/GeofenceTesting-project-headers.hmap -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/include -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Pods/Headers -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Pods/Headers/CocoaLumberjack -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/DerivedSources/arm64 -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/DerivedSources -F/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos -isystem /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Pods/Headers -isystem /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Pods/Headers/CocoaLumberjack -include /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/PrecompiledHeaders/GeofenceTesting-Prefix-dupogthqawtgughchsstanrgnzdn/GeofenceTesting-Prefix.pch -MMD -MT dependencies -MF /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/MKMapView+MBDebugDrawing.d --serialize-diagnostics /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/MKMapView+MBDebugDrawing.dia -c /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/Categories/MKMapView+MBDebugDrawing.m -o /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/MKMapView+MBDebugDrawing.o36"15C8E02A-0AF6-4E74-9BD1-5B3AE9C6134C-
+b4A85659B-CF29-401B-90FA-1BCE1752B6BA
+
+CCompileC Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/UIColor+Random.o /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/Categories/UIColor+Random.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s429272844.585137
+e429272844.648247
+r1
+xCompileC
+xBuild/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/UIColor+Random.o
+x/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/Categories/UIColor+Random.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/Categories/UIColor+Random.m
+d/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/Categories/UIColor+Random.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection132"Compile /Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/Categories/UIColor+Random.m238"CompileC Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/UIColor+Random.o GeofenceTesting/Categories/UIColor+Random.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler7ee5950c2f96b941^eeb0a50c2f96b941^---0#0#1#-19%DVTDocumentLocation2@135"file:///Users/john.hammerlund/Desktop/OSX%20Apps/iOS%20Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/Categories/UIColor+Random.m0000000000000000^4727"CompileC Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/UIColor+Random.o GeofenceTesting/Categories/UIColor+Random.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/john.hammerlund/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/GeofenceTesting-generated-files.hmap -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/GeofenceTesting-own-target-headers.hmap -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/GeofenceTesting-all-target-headers.hmap -iquote /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/GeofenceTesting-project-headers.hmap -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/include -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Pods/Headers -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Pods/Headers/CocoaLumberjack -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/DerivedSources/arm64 -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/DerivedSources -F/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos -isystem /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Pods/Headers -isystem /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Pods/Headers/CocoaLumberjack -include /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/PrecompiledHeaders/GeofenceTesting-Prefix-dupogthqawtgughchsstanrgnzdn/GeofenceTesting-Prefix.pch -MMD -MT dependencies -MF /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/UIColor+Random.d --serialize-diagnostics /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/UIColor+Random.dia -c /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/Categories/UIColor+Random.m -o /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/UIColor+Random.o36"E8BB9961-20CB-4752-AD45-237FFCE0D73E-
+b4A85659B-CF29-401B-90FA-1BCE1752B6BA
+
+CCompileC Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/UIView+HelperTools.o /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/Categories/UIView+HelperTools.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s429272844.584617
+e429272844.745229
+r1
+xCompileC
+xBuild/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/UIView+HelperTools.o
+x/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/Categories/UIView+HelperTools.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/Categories/UIView+HelperTools.m
+d/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/Categories/UIView+HelperTools.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection136"Compile /Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/Categories/UIView+HelperTools.m246"CompileC Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/UIView+HelperTools.o GeofenceTesting/Categories/UIView+HelperTools.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler44c0950c2f96b941^2ec8be0c2f96b941^---0#0#1#-19%DVTDocumentLocation2@139"file:///Users/john.hammerlund/Desktop/OSX%20Apps/iOS%20Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/Categories/UIView+HelperTools.m0000000000000000^4751"CompileC Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/UIView+HelperTools.o GeofenceTesting/Categories/UIView+HelperTools.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/john.hammerlund/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/GeofenceTesting-generated-files.hmap -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/GeofenceTesting-own-target-headers.hmap -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/GeofenceTesting-all-target-headers.hmap -iquote /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/GeofenceTesting-project-headers.hmap -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/include -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Pods/Headers -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Pods/Headers/CocoaLumberjack -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/DerivedSources/arm64 -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/DerivedSources -F/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos -isystem /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Pods/Headers -isystem /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Pods/Headers/CocoaLumberjack -include /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/PrecompiledHeaders/GeofenceTesting-Prefix-dupogthqawtgughchsstanrgnzdn/GeofenceTesting-Prefix.pch -MMD -MT dependencies -MF /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/UIView+HelperTools.d --serialize-diagnostics /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/UIView+HelperTools.dia -c /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/Categories/UIView+HelperTools.m -o /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/UIView+HelperTools.o36"8A389D97-233A-45A0-996D-581D53C5903D-
+b4A85659B-CF29-401B-90FA-1BCE1752B6BA
+
+CCompileC Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/main.o /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s429272844.730201
+e429272844.787623
+r1
+xCompileC
+xBuild/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/main.o
+x/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/main.m
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/main.m
+d/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/HTMAppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Compile /Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/main.m207"CompileC Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/main.o GeofenceTesting/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilerb30abb0c2f96b941^45a1c90c2f96b941^---0#0#1#-19%DVTDocumentLocation2@114"file:///Users/john.hammerlund/Desktop/OSX%20Apps/iOS%20Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/main.m0000000000000000^4645"CompileC Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/main.o GeofenceTesting/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/john.hammerlund/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/GeofenceTesting-generated-files.hmap -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/GeofenceTesting-own-target-headers.hmap -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/GeofenceTesting-all-target-headers.hmap -iquote /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/GeofenceTesting-project-headers.hmap -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/include -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Pods/Headers -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Pods/Headers/CocoaLumberjack -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/DerivedSources/arm64 -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/DerivedSources -F/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos -isystem /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Pods/Headers -isystem /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Pods/Headers/CocoaLumberjack -include /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/PrecompiledHeaders/GeofenceTesting-Prefix-dupogthqawtgughchsstanrgnzdn/GeofenceTesting-Prefix.pch -MMD -MT dependencies -MF /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/main.d --serialize-diagnostics /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/main.dia -c /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/main.m -o /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/main.o36"FAE25E46-543A-4CF8-BF41-AA89FF2542EE-
+b4A85659B-CF29-401B-90FA-1BCE1752B6BA
+
+CCompileXIB /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/ViewControllers/Map/HTMMapViewController.xib
+r0
+
+CCopyPNGFile /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/GeofenceTesting.app/HTMListTabBarIcon.png GeofenceTesting/Resources/images/HTMListTabBarIcon.png
+r0
+
+CCopyPNGFile /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/GeofenceTesting.app/HTMListTabBarIcon@2x.png GeofenceTesting/Resources/images/HTMListTabBarIcon@2x.png
+r0
+
+CCopyPNGFile /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/GeofenceTesting.app/HTMMapTabBarIcon.png GeofenceTesting/Resources/images/HTMMapTabBarIcon.png
+r0
+
+CCopyPNGFile /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/GeofenceTesting.app/HTMMapTabBarIcon@2x.png GeofenceTesting/Resources/images/HTMMapTabBarIcon@2x.png
+r0
+
+CCopyPNGFile /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/GeofenceTesting.app/MBCenterMapArrowGrey.png GeofenceTesting/Resources/images/MBCenterMapArrowGrey.png
+r0
+
+CCopyPNGFile /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/GeofenceTesting.app/MBCenterMapArrowOrange.png GeofenceTesting/Resources/images/MBCenterMapArrowOrange.png
+r0
+
+CCopyStringsFile /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/GeofenceTesting.app/en.lproj/InfoPlist.strings GeofenceTesting/en.lproj/InfoPlist.strings
+r0
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/ResourceRules.plist Build/Products/Debug-iphoneos/GeofenceTesting.app/ResourceRules.plist
+r0
+
+CCpResource GeofenceTesting/Resources/GPX/MINDBODY-SLO.gpx Build/Products/Debug-iphoneos/GeofenceTesting.app/MINDBODY-SLO.gpx
+r0
+
+CGenerateDSYMFile /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/GeofenceTesting.app.dSYM /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/GeofenceTesting.app/GeofenceTesting
+s429272844.916860
+e429272844.954867
+r1
+xGenerateDSYMFile
+x/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/GeofenceTesting.app.dSYM
+x/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/GeofenceTesting.app/GeofenceTesting
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection144"Generate /Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/GeofenceTesting.app.dSYM137"GenerateDSYMFile Build/Products/Debug-iphoneos/GeofenceTesting.app.dSYM Build/Products/Debug-iphoneos/GeofenceTesting.app/GeofenceTesting76c3ea0c2f96b941^3673f40c2f96b941^---0#0#1#-19%DVTDocumentLocation2@147"file:///Users/john.hammerlund/Desktop/OSX%20Apps/iOS%20Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/GeofenceTesting.app.dSYM/0000000000000000^806"GenerateDSYMFile Build/Products/Debug-iphoneos/GeofenceTesting.app.dSYM Build/Products/Debug-iphoneos/GeofenceTesting.app/GeofenceTesting    cd "/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting"    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/GeofenceTesting.app/GeofenceTesting -o /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/GeofenceTesting.app.dSYM36"F5B78A14-5B26-4636-A01C-C61BD0647B90-
+b4A85659B-CF29-401B-90FA-1BCE1752B6BA
+
+CLd /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/GeofenceTesting.app/GeofenceTesting normal arm64
+s429272844.852493
+e429272844.909627
+r1
+xLd
+x/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/GeofenceTesting.app/GeofenceTesting
+xnormal
+xarm64
+d/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/GeofenceTesting.LinkFileList
+d/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMMapViewController.o
+d/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMGeofenceLoggerViewController.o
+d/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/UIView+HelperTools.o
+d/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMLogger.o
+d/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/UIColor+Random.o
+d/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/MKMapView+MBDebugDrawing.o
+d/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMMainTabBarController.o
+d/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMLogTableViewCell.o
+d/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMAppDelegate.o
+d/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMGeofenceManager.o
+d/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/main.o
+d/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/MBLocationArrowButton.o
+d/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/HTMGeofencedCircleRenderer.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/libPods-GeofenceTesting.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/usr/lib/system/libxpc.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection151"Link /Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/GeofenceTesting.app/GeofenceTesting81"Ld Build/Products/Debug-iphoneos/GeofenceTesting.app/GeofenceTesting normal arm645d51da0c2f96b941^a0dee80c2f96b941^---0#0#1#--1661"Ld Build/Products/Debug-iphoneos/GeofenceTesting.app/GeofenceTesting normal arm64    cd "/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting"    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos -F/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos -filelist /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/GeofenceTesting.LinkFileList -dead_strip -ObjC -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=7.1 -framework MapKit -framework CoreGraphics -framework UIKit -framework Foundation -lPods-GeofenceTesting -Xlinker -dependency_info -Xlinker /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Objects-normal/arm64/GeofenceTesting_dependency_info.dat -o /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/GeofenceTesting.app/GeofenceTesting36"73583933-D021-44B2-B058-4E1420B3D30F-
+b4A85659B-CF29-401B-90FA-1BCE1752B6BA
+
+CPhaseScriptExecution Check\ Pods\ Manifest.lock /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Script-C995FD55940F44358C08B797.sh
+s429272844.519214
+e429272844.531849
+r1
+xPhaseScriptExecution
+xCheck Pods Manifest.lock
+x/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Script-C995FD55940F44358C08B797.sh
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Run custom shell script 'Check Pods Manifest.lock'161"PhaseScriptExecution Check\ Pods\ Manifest.lock Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Script-C995FD55940F44358C08B797.sh1a33850c2f96b941^f628880c2f96b941^---0#0#1#--468"PhaseScriptExecution Check\ Pods\ Manifest.lock Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Script-C995FD55940F44358C08B797.sh    cd "/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting"    /bin/sh -c \"/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Script-C995FD55940F44358C08B797.sh\"36"9E651CF0-8827-4603-8190-58D66BBA933B-
+b4A85659B-CF29-401B-90FA-1BCE1752B6BA
+
+CPhaseScriptExecution Copy\ Pods\ Resources /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Script-5367914028424717ACC1F942.sh
+s429272844.955734
+e429272845.354691
+r1
+xPhaseScriptExecution
+xCopy Pods Resources
+x/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Script-5367914028424717ACC1F942.sh
+obuilding file list ... done
+o
+osent 29 bytes  received 20 bytes  98.00 bytes/sec
+ototal size is 0  speedup is 0.00
+o/* com.apple.actool.compilation-results */
+o/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/GeofenceTesting.app/Assets.car
+o
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Run custom shell script 'Copy Pods Resources'156"PhaseScriptExecution Copy\ Pods\ Resources Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Script-5367914028424717ACC1F942.shdcf3f40c2f96b941^8ecd5a0d2f96b941^-298"building file list ... donesent 29 bytes  received 20 bytes  98.00 bytes/sectotal size is 0  speedup is 0.00/* com.apple.actool.compilation-results *//Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/GeofenceTesting.app/Assets.car5(21%IDEActivityLogMessage2@28"building file list ... done-429272844#0#28#-0#-----2@50"sent 29 bytes  received 20 bytes  98.00 bytes/sec-429272845#29#50#-0#-----2@33"total size is 0  speedup is 0.00-429272845#79#33#-0#-----2@43"/* com.apple.actool.compilation-results */-429272845#112#43#-0#-----2@142"/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/GeofenceTesting.app/Assets.car-429272845#155#142#-0#-----0#0#1#--463"PhaseScriptExecution Copy\ Pods\ Resources Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Script-5367914028424717ACC1F942.sh    cd "/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting"    /bin/sh -c \"/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/Script-5367914028424717ACC1F942.sh\"36"D6622876-65F8-4F1D-A113-711611A1E618-
+b4A85659B-CF29-401B-90FA-1BCE1752B6BA
+
+CProcessInfoPlistFile /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/GeofenceTesting.app/Info.plist /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/GeofenceTesting-Info.plist
+r0
+
+CProcessPCH /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/PrecompiledHeaders/GeofenceTesting-Prefix-dupogthqawtgughchsstanrgnzdn/GeofenceTesting-Prefix.pch.pch GeofenceTesting/GeofenceTesting-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s429272844.532475
+e429272844.583047
+r1
+xProcessPCH
+x/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/PrecompiledHeaders/GeofenceTesting-Prefix-dupogthqawtgughchsstanrgnzdn/GeofenceTesting-Prefix.pch.pch
+xGeofenceTesting/GeofenceTesting-Prefix.pch
+xnormal
+xarm64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/GeofenceTesting-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Precompile GeofenceTesting/GeofenceTesting-Prefix.pch244"ProcessPCH Build/Intermediates/PrecompiledHeaders/GeofenceTesting-Prefix-dupogthqawtgughchsstanrgnzdn/GeofenceTesting-Prefix.pch.pch GeofenceTesting/GeofenceTesting-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler2863880c2f96b941^0743950c2f96b941^---0#0#1#-19%DVTDocumentLocation2@134"file:///Users/john.hammerlund/Desktop/OSX%20Apps/iOS%20Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/GeofenceTesting-Prefix.pch0000000000000000^4540"ProcessPCH Build/Intermediates/PrecompiledHeaders/GeofenceTesting-Prefix-dupogthqawtgughchsstanrgnzdn/GeofenceTesting-Prefix.pch.pch GeofenceTesting/GeofenceTesting-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/john.hammerlund/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/GeofenceTesting-generated-files.hmap -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/GeofenceTesting-own-target-headers.hmap -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/GeofenceTesting-all-target-headers.hmap -iquote /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/GeofenceTesting-project-headers.hmap -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/include -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Pods/Headers -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Pods/Headers/CocoaLumberjack -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/DerivedSources/arm64 -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/DerivedSources -F/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos -isystem /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Pods/Headers -isystem /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Pods/Headers/CocoaLumberjack --serialize-diagnostics /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/PrecompiledHeaders/GeofenceTesting-Prefix-dupogthqawtgughchsstanrgnzdn/GeofenceTesting-Prefix.pch.dia -MMD -MT dependencies -MF /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/PrecompiledHeaders/GeofenceTesting-Prefix-dupogthqawtgughchsstanrgnzdn/GeofenceTesting-Prefix.pch.d -c /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/GeofenceTesting/GeofenceTesting-Prefix.pch -o /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/PrecompiledHeaders/GeofenceTesting-Prefix-dupogthqawtgughchsstanrgnzdn/GeofenceTesting-Prefix.pch.pch36"F2AA7BE2-90F6-4844-A351-95886323081D-
+b4A85659B-CF29-401B-90FA-1BCE1752B6BA
+
+CProcessPCH /Users/john.hammerlund/Library/Developer/Xcode/DerivedData/GeofenceTesting-crplddthjjvxtqbnltafynrlxxfw/Index/PrecompiledHeaders/GeofenceTesting-Prefix-dzqgyxvppqhlakhjvrzbkknszyvl_ast/GeofenceTesting-Prefix.pch.pch GeofenceTesting/GeofenceTesting-Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/GeofenceTesting.xcent
+s429272845.376917
+e429272845.378377
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist
+x/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/GeofenceTesting.xcent
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection245"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/GeofenceTesting.xcent245"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/GeofenceTesting.xcentad8a600d2f96b941^4cde600d2f96b941^---0#0#1#-19%DVTDocumentLocation2@192"file:///Users/john.hammerlund/Desktop/OSX%20Apps/iOS%20Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/GeofenceTesting.xcent0034b0e6dcffdf42^894"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/GeofenceTesting.xcent    cd "/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting"    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/GeofenceTesting.build/Debug-iphoneos/GeofenceTesting.build/GeofenceTesting.xcent36"85AE57A1-545C-47D2-880D-7853B70FE8BB-
+b4A85659B-CF29-401B-90FA-1BCE1752B6BA
+
+CProcessProductPackaging /Users/john.hammerlund/Library/MobileDevice/Provisioning\ Profiles/DE82DDE6-2614-4087-AD5C-1E71C2104E79.mobileprovision /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/GeofenceTesting.app/embedded.mobileprovision
+s429272845.355068
+e429272845.375819
+r1
+xProcessProductPackaging
+x/Users/john.hammerlund/Library/MobileDevice/Provisioning Profiles/DE82DDE6-2614-4087-AD5C-1E71C2104E79.mobileprovision
+x/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/GeofenceTesting.app/embedded.mobileprovision
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection218"ProcessProductPackaging /Users/john.hammerlund/Library/MobileDevice/Provisioning\ Profiles/DE82DDE6-2614-4087-AD5C-1E71C2104E79.mobileprovision Build/Products/Debug-iphoneos/GeofenceTesting.app/embedded.mobileprovision218"ProcessProductPackaging /Users/john.hammerlund/Library/MobileDevice/Provisioning\ Profiles/DE82DDE6-2614-4087-AD5C-1E71C2104E79.mobileprovision Build/Products/Debug-iphoneos/GeofenceTesting.app/embedded.mobileprovision80f35a0d2f96b941^b936600d2f96b941^---0#0#1#-19%DVTDocumentLocation2@166"file:///Users/john.hammerlund/Desktop/OSX%20Apps/iOS%20Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/GeofenceTesting.app/embedded.mobileprovision0000000000000000^814"ProcessProductPackaging /Users/john.hammerlund/Library/MobileDevice/Provisioning\ Profiles/DE82DDE6-2614-4087-AD5C-1E71C2104E79.mobileprovision Build/Products/Debug-iphoneos/GeofenceTesting.app/embedded.mobileprovision    cd "/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting"    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Users/john.hammerlund/Library/MobileDevice/Provisioning\ Profiles/DE82DDE6-2614-4087-AD5C-1E71C2104E79.mobileprovision -o /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/GeofenceTesting.app/embedded.mobileprovision36"C3B2D423-B6BC-41F2-8ED2-C2319243E4A1-
+b4A85659B-CF29-401B-90FA-1BCE1752B6BA
+
+CTouch /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphoneos/GeofenceTesting.app
+r0
+

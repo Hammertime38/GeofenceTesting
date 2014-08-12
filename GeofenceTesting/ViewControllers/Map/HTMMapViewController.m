@@ -29,6 +29,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [self setLocationManager:[CLLocationManager new]];
+//    [self.locationManager requestAlwaysAuthorization];
 
     [self setUserCoordinate:kCLLocationCoordinate2DInvalid];
 
@@ -42,10 +44,13 @@
 
     [self.locationArrowButton addTarget:self action:@selector(moveToUserLocation_) forControlEvents:UIControlEventTouchUpInside];
 
-    [[HTMGeofenceManager sharedManager] removeAllGeofencedRegions];
-    [self setLocationManager:[CLLocationManager new]];
+//    [[HTMGeofenceManager sharedManager] removeAllGeofencedRegions];
     [self.locationManager setDelegate:self];
-    [self.locationManager startUpdatingLocation];
+//    [self.locationManager startUpdatingLocation];
+    [self.locationManager setDesiredAccuracy:kCLLocationAccuracyBest];
+    [self.locationManager startMonitoringSignificantLocationChanges];
+    [self.locationManager setPausesLocationUpdatesAutomatically:NO];
+    [self.locationManager setHeadingFilter:kCLHeadingFilterNone];
 }
 
 - (void)moveToUserLocation_
@@ -103,7 +108,6 @@ static char * kSelectedCoordinateHackyKey;
 {
     MKCoordinateRegion region = MKCoordinateRegionMakeWithDistance(userLocation.coordinate, 1000, 1000);
     [self.mapView setRegion:region];
-    [self.locationManager stopUpdatingLocation];
 }
 
 - (void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations
@@ -117,6 +121,11 @@ static char * kSelectedCoordinateHackyKey;
             [self setMovedToUserLocationOnFirstLoad:YES];
         }
     }
+}
+
+- (void)locationManagerDidPauseLocationUpdates:(CLLocationManager *)manager
+{
+    DDLogWarn(@"Paused location updates");
 }
 
 - (void)actionSheet:(UIActionSheet *)actionSheet willDismissWithButtonIndex:(NSInteger)buttonIndex

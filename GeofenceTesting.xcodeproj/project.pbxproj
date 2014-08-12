@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B5B0428198861310079CDC8 /* HTMLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5B0427198861310079CDC8 /* HTMLogger.m */; };
+		1B5B042C198865C80079CDC8 /* HTMLogTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B5B042B198865C80079CDC8 /* HTMLogTableViewCell.m */; };
 		1B621CF01987008900493B36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B621CEF1987008900493B36 /* Foundation.framework */; };
 		1B621CF21987008900493B36 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B621CF11987008900493B36 /* CoreGraphics.framework */; };
 		1B621CF41987008900493B36 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B621CF31987008900493B36 /* UIKit.framework */; };
@@ -37,6 +39,7 @@
 		1B621D511987099700493B36 /* UIColor+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B621D501987099700493B36 /* UIColor+Random.m */; };
 		1B621D55198709E000493B36 /* HTMGeofenceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B621D54198709E000493B36 /* HTMGeofenceManager.m */; };
 		1B621D58198715A100493B36 /* HTMGeofencedCircleRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B621D57198715A100493B36 /* HTMGeofencedCircleRenderer.m */; };
+		EE24949F33544AA0A0120CF7 /* libPods-GeofenceTesting.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A19334796514777AFD57918 /* libPods-GeofenceTesting.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +53,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A19334796514777AFD57918 /* libPods-GeofenceTesting.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GeofenceTesting.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B5B0426198861310079CDC8 /* HTMLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLogger.h; sourceTree = "<group>"; };
+		1B5B0427198861310079CDC8 /* HTMLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLogger.m; sourceTree = "<group>"; };
+		1B5B042A198865C80079CDC8 /* HTMLogTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLogTableViewCell.h; sourceTree = "<group>"; };
+		1B5B042B198865C80079CDC8 /* HTMLogTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLogTableViewCell.m; sourceTree = "<group>"; };
 		1B621CEC1987008900493B36 /* GeofenceTesting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeofenceTesting.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B621CEF1987008900493B36 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1B621CF11987008900493B36 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -93,6 +101,7 @@
 		1B621D54198709E000493B36 /* HTMGeofenceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMGeofenceManager.m; sourceTree = "<group>"; };
 		1B621D56198715A100493B36 /* HTMGeofencedCircleRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMGeofencedCircleRenderer.h; sourceTree = "<group>"; };
 		1B621D57198715A100493B36 /* HTMGeofencedCircleRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMGeofencedCircleRenderer.m; sourceTree = "<group>"; };
+		1D8C187716EE41D39FE898F1 /* Pods-GeofenceTesting.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeofenceTesting.xcconfig"; path = "Pods/Pods-GeofenceTesting.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +113,7 @@
 				1B621CF21987008900493B36 /* CoreGraphics.framework in Frameworks */,
 				1B621CF41987008900493B36 /* UIKit.framework in Frameworks */,
 				1B621CF01987008900493B36 /* Foundation.framework in Frameworks */,
+				EE24949F33544AA0A0120CF7 /* libPods-GeofenceTesting.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,6 +130,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B5B0425198860CD0079CDC8 /* Logging */ = {
+			isa = PBXGroup;
+			children = (
+				1B5B0426198861310079CDC8 /* HTMLogger.h */,
+				1B5B0427198861310079CDC8 /* HTMLogger.m */,
+			);
+			path = Logging;
+			sourceTree = "<group>";
+		};
+		1B5B0429198865B80079CDC8 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				1B5B042A198865C80079CDC8 /* HTMLogTableViewCell.h */,
+				1B5B042B198865C80079CDC8 /* HTMLogTableViewCell.m */,
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
 		1B621CE31987008900493B36 = {
 			isa = PBXGroup;
 			children = (
@@ -127,6 +155,7 @@
 				1B621D0E1987008A00493B36 /* GeofenceTestingTests */,
 				1B621CEE1987008900493B36 /* Frameworks */,
 				1B621CED1987008900493B36 /* Products */,
+				1D8C187716EE41D39FE898F1 /* Pods-GeofenceTesting.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -147,6 +176,7 @@
 				1B621CF11987008900493B36 /* CoreGraphics.framework */,
 				1B621CF31987008900493B36 /* UIKit.framework */,
 				1B621D081987008A00493B36 /* XCTest.framework */,
+				1A19334796514777AFD57918 /* libPods-GeofenceTesting.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -154,6 +184,8 @@
 		1B621CF51987008900493B36 /* GeofenceTesting */ = {
 			isa = PBXGroup;
 			children = (
+				1B5B0429198865B80079CDC8 /* CustomCells */,
+				1B5B0425198860CD0079CDC8 /* Logging */,
 				1B621D52198709CD00493B36 /* Managers */,
 				1B621D481987064500493B36 /* Categories */,
 				1B621D431987056200493B36 /* CustomViews */,
@@ -312,9 +344,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1B621D181987008A00493B36 /* Build configuration list for PBXNativeTarget "GeofenceTesting" */;
 			buildPhases = (
+				C995FD55940F44358C08B797 /* Check Pods Manifest.lock */,
 				1B621CE81987008900493B36 /* Sources */,
 				1B621CE91987008900493B36 /* Frameworks */,
 				1B621CEA1987008900493B36 /* Resources */,
+				5367914028424717ACC1F942 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -404,6 +438,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5367914028424717ACC1F942 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-GeofenceTesting-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C995FD55940F44358C08B797 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1B621CE81987008900493B36 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -412,9 +479,11 @@
 				1B621D3A198703FF00493B36 /* HTMMapViewController.m in Sources */,
 				1B621D271987017400493B36 /* HTMGeofenceLoggerViewController.m in Sources */,
 				1B621D4B1987064500493B36 /* UIView+HelperTools.m in Sources */,
+				1B5B0428198861310079CDC8 /* HTMLogger.m in Sources */,
 				1B621D511987099700493B36 /* UIColor+Random.m in Sources */,
 				1B621D4E1987095800493B36 /* MKMapView+MBDebugDrawing.m in Sources */,
 				1B621D241987014F00493B36 /* HTMMainTabBarController.m in Sources */,
+				1B5B042C198865C80079CDC8 /* HTMLogTableViewCell.m in Sources */,
 				1B621D001987008900493B36 /* HTMAppDelegate.m in Sources */,
 				1B621D55198709E000493B36 /* HTMGeofenceManager.m in Sources */,
 				1B621CFC1987008900493B36 /* main.m in Sources */,
@@ -533,26 +602,32 @@
 		};
 		1B621D191987008A00493B36 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D8C187716EE41D39FE898F1 /* Pods-GeofenceTesting.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: John Hammerlund (KHCLW686K6)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GeofenceTesting/GeofenceTesting-Prefix.pch";
 				INFOPLIST_FILE = "GeofenceTesting/GeofenceTesting-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		1B621D1A1987008A00493B36 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D8C187716EE41D39FE898F1 /* Pods-GeofenceTesting.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: John Hammerlund (KHCLW686K6)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GeofenceTesting/GeofenceTesting-Prefix.pch";
 				INFOPLIST_FILE = "GeofenceTesting/GeofenceTesting-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -616,6 +691,7 @@
 				1B621D1A1987008A00493B36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1B621D1B1987008A00493B36 /* Build configuration list for PBXNativeTarget "GeofenceTestingTests" */ = {
 			isa = XCConfigurationList;
@@ -624,6 +700,7 @@
 				1B621D1D1987008A00493B36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

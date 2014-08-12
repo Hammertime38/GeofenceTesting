@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HTMGeofenceLoggerViewController : UIViewController
+@interface HTMGeofenceLoggerViewController : UITableViewController
 
 @end

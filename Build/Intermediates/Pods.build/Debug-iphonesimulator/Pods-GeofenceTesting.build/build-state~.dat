@@ -1,0 +1,88 @@
+TPods-GeofenceTesting
+v6
+r1
+cCheck dependencies
+cCompileC /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GeofenceTesting.build/Objects-normal/x86_64/Pods-GeofenceTesting-dummy.o /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Pods/Pods-GeofenceTesting-dummy.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphonesimulator/libPods-GeofenceTesting.a normal x86_64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000005320A2DA0000000000A90C10
+t1394647770
+s11078672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
+c00000000534C0C7E0000000000000198
+t1397492862
+s408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
+c000000005320A2E500000000000003B4
+t1394647781
+s948
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c000000005320A2EA000000000000019E
+t1394647786
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c000000005320A2FF0000000000000ADC
+t1394647807
+s2780
+
+N/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GeofenceTesting.build/Objects-normal/x86_64/Pods-GeofenceTesting-dummy.o
+t1406676047
+s3788
+
+N/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GeofenceTesting.build/Objects-normal/x86_64/Pods-GeofenceTesting.LinkFileList
+c0000000053D82C4F00000000000000D4
+t1406676047
+s212
+
+N/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphonesimulator/libPods-GeofenceTesting-CocoaLumberjack.a
+c0000000053D82C4F00000000000A5B10
+t1406676047
+s678672
+
+N/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphonesimulator/libPods-GeofenceTesting.a
+t2
+s0
+
+N/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Pods/Pods-GeofenceTesting-dummy.m
+c0000000053D80E8E0000000000000090
+t1406668430
+s144
+
+CBuild AST from /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Pods/Pods-GeofenceTesting-dummy.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies3bab25cf6388b941^a52d26cf6388b941^---0#1#1#--18"Check dependencies36"A54DC9E6-4758-46CE-A53B-D34BD090602D-
+
+CCompileC /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GeofenceTesting.build/Objects-normal/x86_64/Pods-GeofenceTesting-dummy.o /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Pods/Pods-GeofenceTesting-dummy.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s428368847.149594
+e428368847.762665
+r1
+xCompileC
+x/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GeofenceTesting.build/Objects-normal/x86_64/Pods-GeofenceTesting-dummy.o
+x/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Pods/Pods-GeofenceTesting-dummy.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Pods/Pods-GeofenceTesting-dummy.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection122"Compile /Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Pods/Pods-GeofenceTesting-dummy.m321"CompileC /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GeofenceTesting.build/Objects-normal/x86_64/Pods-GeofenceTesting-dummy.o Pods-GeofenceTesting-dummy.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler295d26cf6388b941^683ec3cf6388b941^---0#0#1#-19%DVTDocumentLocation2@125"file:///Users/john.hammerlund/Desktop/OSX%20Apps/iOS%20Apps/GeofenceTesting/GeofenceTesting/Pods/Pods-GeofenceTesting-dummy.m0000000000000000^4679"CompileC /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GeofenceTesting.build/Objects-normal/x86_64/Pods-GeofenceTesting-dummy.o Pods-GeofenceTesting-dummy.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd "/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Pods"    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/john.hammerlund/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GeofenceTesting.build/Pods-GeofenceTesting-generated-files.hmap -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GeofenceTesting.build/Pods-GeofenceTesting-own-target-headers.hmap -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GeofenceTesting.build/Pods-GeofenceTesting-all-target-headers.hmap -iquote /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GeofenceTesting.build/Pods-GeofenceTesting-project-headers.hmap -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphonesimulator/include -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Pods/Pods/Headers -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Pods/Pods/Headers/CocoaLumberjack -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GeofenceTesting.build/DerivedSources/x86_64 -I/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GeofenceTesting.build/DerivedSources -F/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphonesimulator -isystem /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Pods/Pods/Headers -isystem /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Pods/Pods/Headers/CocoaLumberjack -MMD -MT dependencies -MF /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GeofenceTesting.build/Objects-normal/x86_64/Pods-GeofenceTesting-dummy.d --serialize-diagnostics /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GeofenceTesting.build/Objects-normal/x86_64/Pods-GeofenceTesting-dummy.dia -c /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Pods/Pods-GeofenceTesting-dummy.m -o /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GeofenceTesting.build/Objects-normal/x86_64/Pods-GeofenceTesting-dummy.o36"651220ED-4797-4544-9CA5-6AA7BD2F832B-
+b92DE2A98-7912-4C93-B693-381925A2B833
+
+CLibtool /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphonesimulator/libPods-GeofenceTesting.a normal x86_64
+s428368847.763620
+e428368847.786240
+r1
+xLibtool
+x/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphonesimulator/libPods-GeofenceTesting.a
+xnormal
+xx86_64
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection167"Libtool /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphonesimulator/libPods-GeofenceTesting.a normal x86_64167"Libtool /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphonesimulator/libPods-GeofenceTesting.a normal x86_648389c3cf6388b941^234ae3cf6388b941^---0#0#1#--1314"Libtool /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphonesimulator/libPods-GeofenceTesting.a normal x86_64    cd "/Users/john.hammerlund/Desktop/OSX Apps/iOS Apps/GeofenceTesting/GeofenceTesting/Pods"    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only x86_64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphonesimulator -filelist /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GeofenceTesting.build/Objects-normal/x86_64/Pods-GeofenceTesting.LinkFileList -framework Foundation -lPods-GeofenceTesting-CocoaLumberjack -o /Users/john.hammerlund/Desktop/OSX\ Apps/iOS\ Apps/GeofenceTesting/GeofenceTesting/Build/Products/Debug-iphonesimulator/libPods-GeofenceTesting.a36"16A941BC-1226-4315-9966-9DDF65F1B5BD-
+b92DE2A98-7912-4C93-B693-381925A2B833
+

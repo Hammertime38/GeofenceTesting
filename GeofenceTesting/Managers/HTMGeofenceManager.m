@@ -28,6 +28,9 @@ NSString * const kRemovedGeofencedRegionsKey = @"kRemovedGeofencedRegionsKey";
         me->_locationManager = [CLLocationManager new];
         [me->_locationManager setDelegate:me];
         me->_orderedMonitoredRegions = [NSMutableOrderedSet orderedSet];
+        [[[NSUserDefaults standardUserDefaults] arrayForKey:@"storedRegions"] enumerateObjectsUsingBlock:^(NSData *obj, NSUInteger idx, BOOL *stop) {
+            [me->_orderedMonitoredRegions addObject:[NSKeyedUnarchiver unarchiveObjectWithData:obj]];
+        }];
     });
     return me;
 }
@@ -39,6 +42,12 @@ NSString * const kRemovedGeofencedRegionsKey = @"kRemovedGeofencedRegionsKey";
 
 	[self.locationManager startMonitoringForRegion:region];
     [self.orderedMonitoredRegions addObject:region];
+
+    NSMutableArray *storedRegions = [[[NSUserDefaults standardUserDefaults] arrayForKey:@"storedRegions"] mutableCopy] ?: [NSMutableArray array];
+    [storedRegions addObject:[NSKeyedArchiver archivedDataWithRootObject:region]];
+    [[NSUserDefaults standardUserDefaults] setObject:[storedRegions copy] forKey:@"storedRegions"];
+    [[NSUserDefaults standardUserDefaults] synchronize];
+
     [[NSNotificationCenter defaultCenter] postNotificationName:HTMGeofencedRegionsUpdatedNotification object:self userInfo:@{kAddedGeofencedRegionsKey : @[region]}];
 }
 
@@ -57,6 +66,17 @@ NSString * const kRemovedGeofencedRegionsKey = @"kRemovedGeofencedRegionsKey";
 
     [self.locationManager stopMonitoringForRegion:geofencedRegion];
     [self.orderedMonitoredRegions removeObject:geofencedRegion];
+
+    NSArray *storedRegionsData = [[NSUserDefaults standardUserDefaults] arrayForKey:@"storedRegions"];
+    NSMutableArray *updatedRegionsData = [storedRegionsData mutableCopy];
+    for (int i=0; i < storedRegionsData.count; i++) {
+        CLRegion *unarchivedRegion = [NSKeyedUnarchiver unarchiveObjectWithData:storedRegionsData[i]];
+        if ([unarchivedRegion isEqual:geofencedRegion])
+            [updatedRegionsData removeObjectAtIndex:i];
+    }
+    [[NSUserDefaults standardUserDefaults] setObject:[updatedRegionsData copy] forKey:@"storedRegions"];
+    [[NSUserDefaults standardUserDefaults] synchronize];
+
     [[NSNotificationCenter defaultCenter] postNotificationName:HTMGeofencedRegionsUpdatedNotification object:self userInfo:@{kRemovedGeofencedRegionsKey : @[geofencedRegion]}];
 }
 
@@ -70,6 +90,10 @@ NSString * const kRemovedGeofencedRegionsKey = @"kRemovedGeofencedRegionsKey";
         [self.locationManager stopMonitoringForRegion:region];
         [self.orderedMonitoredRegions removeObject:region];
     }
+
+    [[NSUserDefaults standardUserDefaults] setObject:@[] forKey:@"storedRegions"];
+    [[NSUserDefaults standardUserDefaults] synchronize];
+
     [[NSNotificationCenter defaultCenter] postNotificationName:HTMGeofencedRegionsUpdatedNotification object:self userInfo:@{kRemovedGeofencedRegionsKey : monitoredRegions}];
 }
 
@@ -83,13 +107,13 @@ NSString * const kRemovedGeofencedRegionsKey = @"kRemovedGeofencedRegionsKey";
 - (void)locationManager:(CLLocationManager *)manager
          didEnterRegion:(CLRegion *)region
 {
-
+    DDLogInfo(@"Entered Region %lu", [[self.orderedMonitoredRegions array] indexOfObject:region] + 1);
 }
 
 - (void)locationManager:(CLLocationManager *)manager
           didExitRegion:(CLRegion *)region
 {
-
+    DDLogInfo(@"Exited Region %lu", [[self.orderedMonitoredRegions array] indexOfObject:region] + 1);
 }
 
 @end

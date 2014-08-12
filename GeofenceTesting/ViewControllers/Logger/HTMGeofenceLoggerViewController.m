@@ -7,43 +7,55 @@
 //
 
 #import "HTMGeofenceLoggerViewController.h"
-
-@interface HTMGeofenceLoggerViewController ()
-
-@end
+#import "HTMLogger.h"
+#import "HTMLogTableViewCell.h"
 
 @implementation HTMGeofenceLoggerViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
+NSString * const kLogTableCellIdentifier = @"kLogTableCellIdentifier";
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+
+    [self.tableView registerClass:[HTMLogTableViewCell class] forCellReuseIdentifier:kLogTableCellIdentifier];
+    [self.tableView setSeparatorStyle:UITableViewCellSeparatorStyleNone];
+    [self.tableView setContentInset:UIEdgeInsetsMake(40, 0, 0, 0)];
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(didReceiveLog_:) name:HTMLoggerReceivedLogNotification object:nil];
 }
 
-- (void)didReceiveMemoryWarning
+- (void)didReceiveLog_:(NSNotification *)note
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    [self.tableView reloadData];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+    HTMLogTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:kLogTableCellIdentifier forIndexPath:indexPath];
+    [cell configureWithLog:[[HTMLogger sharedLogger] logs][indexPath.row]];
+
+    return cell;
 }
-*/
+
+- (CGFloat)tableView:(UITableView *)tableView estimatedHeightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 44;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return [HTMLogTableViewCell heightWithLog:[[HTMLogger sharedLogger] logs][indexPath.row] constrainedWidth:tableView.frame.size.width];
+}
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+    return 1;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return [[HTMLogger sharedLogger] logs].count;
+}
 
 @end
